@@ -1,0 +1,28 @@
+#
+# Name : Niki Parmar
+# Student ID : 8436 8069 20
+# Email : nikijitp@usc.edu
+#
+
+### Perceptron Classifier
+
+#It contains two files:
+
+#1. perceplearn.py 
+#File to learn the model. Input contains the CLASS features[] as the format of the file
+#Each row corresponds to one training example.
+#For the perceplearn, there are by default 20 iterations.
+#It takes two arguments when running the file.
+#First is the training file , second is the model to which it writes.
+#./perceplearn.py TRAINING_FILE MODEL
+
+#2. percepclassify.py 
+#File to classify new data.
+#It takes as input the model.
+#To classify the data, give the input to STDIN, and the corresponding example containing the label
+#will be given as output by STDOUT.
+
+#./percepclassify.py MODEL
+
+
+#This averaged perceptron model is used further for Part Of Speech Tagger and Named Entity Recognizer

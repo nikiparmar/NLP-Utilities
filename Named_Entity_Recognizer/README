@@ -1,0 +1,23 @@
+#
+# Name : Niki Parmar
+# Student ID : 8436 8069 20
+# Email : nikijitp@usc.edu
+#
+
+### Named Entity Recognizer
+
+# 1. For learning the model call,
+# ./nelearn.sh TRAINING_FILE MODEL
+
+# It calls ner-taggedfeatures.py to format the data for classifier
+# and then calls perceplearn.py
+# Uses the averaged perceptron built in the first part for learning.
+
+# 2. For classifying call,
+
+# ./netag.py MODEL
+
+# Reads the model and the corresponding weight vectors,
+# and uses that to classify each example.
+# Uses stdin and stdout as input and output.
+
