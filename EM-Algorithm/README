@@ -1,0 +1,31 @@
+##############################################################################
+######## CSCI 662 Homework 2 - Viterbi Noisy Channel Decoder System ##########
+######## Niki Parmar - USC ID 8436806920 #####################################
+##############################################################################
+
+Methodology :
+Implement the EM algorithm to generate alignments of English phenome sequences to Japanese phenome sequences
+
+
+Input: 
+
+training-data
+Set of word pairs of English phenome sequence and Japanese phenome sequence
+
+NO_ITERATIONS
+The number of iterations to run EM for.
+
+
+Output: 
+
+alignments - Set of all possible alignments for each word pair
+epron-jpron.alignment - Correct alignment file generated using the EM algorithm
+epron-jpron-unsupervised.wfst - A WFST containing weighted transitions of English phenome sequences to Japanese phenome sequences
+
+
+
+To run the program use the following command:
+
+python generate-alignments.py training-data alignments 
+python EM-epron-jpron.py alignments NO_ITERATIONS epron-jpron.alignment epron-jpron-unsupervised.wfst
+

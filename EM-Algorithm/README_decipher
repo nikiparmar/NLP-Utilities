@@ -1,0 +1,28 @@
+##############################################################################
+######## CSCI 662 Homework 3 - EM Forward Backward Algorithm ##########
+######## Niki Parmar - USC ID 8436806920 #####################################
+##############################################################################
+
+Methodology :
+Implement the EM forward backward algorithm to code break a cipher given some english data
+
+
+Input: 
+
+training-data
+English data to learn the grammer
+
+cipher
+The cipher to find the decoding for
+
+NO_ITERATIONS
+The number of iterations to run EM for.
+
+
+Output: 
+Each iteration decoding result with the P(cipher) value. In the end we see the probabilities of the final substitution made for each letter.
+
+
+To run the program use the following command:
+
+python decipher.py training-data cipher NO_ITERATIONS > decoded_output
